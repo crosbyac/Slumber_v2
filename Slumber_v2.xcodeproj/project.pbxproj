@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		31B4ACED26237DBB00718C0C /* Slumber_v2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 31B4ACEB26237DBB00718C0C /* Slumber_v2.xcdatamodeld */; };
 		31B4ACF826237DBB00718C0C /* Slumber_v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4ACF726237DBB00718C0C /* Slumber_v2Tests.swift */; };
 		31B4AD0326237DBB00718C0C /* Slumber_v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD0226237DBB00718C0C /* Slumber_v2UITests.swift */; };
+		31B4AD1426237F3300718C0C /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD1326237F3300718C0C /* Onboarding.swift */; };
+		31B4AD4226239C7D00718C0C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD4126239C7D00718C0C /* Login.swift */; };
+		31B4AD4726239D2800718C0C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD4626239D2800718C0C /* Home.swift */; };
+		31B4AD4C2623A62C00718C0C /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD4B2623A62C00718C0C /* Tabs.swift */; };
+		31B4AD572623B21D00718C0C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD562623B21D00718C0C /* History.swift */; };
+		31B4AD5C2623B29F00718C0C /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD5B2623B29F00718C0C /* Tips.swift */; };
+		31B4AD642623B2FF00718C0C /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD632623B2FF00718C0C /* Account.swift */; };
+		31B4AD6F2624077F00718C0C /* SuggestionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B4AD6E2624077F00718C0C /* SuggestionCard.swift */; };
+		31B4AD752625162900718C0C /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = 31B4AD742625162900718C0C /* Charts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,14 @@
 		31B4ACFE26237DBB00718C0C /* Slumber_v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Slumber_v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B4AD0226237DBB00718C0C /* Slumber_v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slumber_v2UITests.swift; sourceTree = "<group>"; };
 		31B4AD0426237DBB00718C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B4AD1326237F3300718C0C /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		31B4AD4126239C7D00718C0C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		31B4AD4626239D2800718C0C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		31B4AD4B2623A62C00718C0C /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
+		31B4AD562623B21D00718C0C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		31B4AD5B2623B29F00718C0C /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		31B4AD632623B2FF00718C0C /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		31B4AD6E2624077F00718C0C /* SuggestionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B4AD752625162900718C0C /* Charts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +119,14 @@
 			children = (
 				31B4ACE026237DBA00718C0C /* Slumber_v2App.swift */,
 				31B4ACE226237DBA00718C0C /* ContentView.swift */,
+				31B4AD4126239C7D00718C0C /* Login.swift */,
+				31B4AD1326237F3300718C0C /* Onboarding.swift */,
+				31B4AD4B2623A62C00718C0C /* Tabs.swift */,
+				31B4AD4626239D2800718C0C /* Home.swift */,
+				31B4AD562623B21D00718C0C /* History.swift */,
+				31B4AD5B2623B29F00718C0C /* Tips.swift */,
+				31B4AD6E2624077F00718C0C /* SuggestionCard.swift */,
+				31B4AD632623B2FF00718C0C /* Account.swift */,
 				31B4ACE426237DBB00718C0C /* Assets.xcassets */,
 				31B4ACE926237DBB00718C0C /* Persistence.swift */,
 				31B4ACEE26237DBB00718C0C /* Info.plist */,
@@ -152,6 +178,9 @@
 			dependencies = (
 			);
 			name = Slumber_v2;
+			packageProductDependencies = (
+				31B4AD742625162900718C0C /* Charts */,
+			);
 			productName = Slumber_v2;
 			productReference = 31B4ACDD26237DBA00718C0C /* Slumber_v2.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +252,9 @@
 				Base,
 			);
 			mainGroup = 31B4ACD426237DBA00718C0C;
+			packageReferences = (
+				31B4AD732625162900718C0C /* XCRemoteSwiftPackageReference "swiftui-charts" */,
+			);
 			productRefGroup = 31B4ACDE26237DBA00718C0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B4AD572623B21D00718C0C /* History.swift in Sources */,
+				31B4AD642623B2FF00718C0C /* Account.swift in Sources */,
+				31B4AD5C2623B29F00718C0C /* Tips.swift in Sources */,
 				31B4ACED26237DBB00718C0C /* Slumber_v2.xcdatamodeld in Sources */,
 				31B4ACEA26237DBB00718C0C /* Persistence.swift in Sources */,
+				31B4AD6F2624077F00718C0C /* SuggestionCard.swift in Sources */,
+				31B4AD1426237F3300718C0C /* Onboarding.swift in Sources */,
+				31B4AD4226239C7D00718C0C /* Login.swift in Sources */,
 				31B4ACE326237DBA00718C0C /* ContentView.swift in Sources */,
 				31B4ACE126237DBA00718C0C /* Slumber_v2App.swift in Sources */,
+				31B4AD4726239D2800718C0C /* Home.swift in Sources */,
+				31B4AD4C2623A62C00718C0C /* Tabs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +628,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		31B4AD732625162900718C0C /* XCRemoteSwiftPackageReference "swiftui-charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-charts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		31B4AD742625162900718C0C /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 31B4AD732625162900718C0C /* XCRemoteSwiftPackageReference "swiftui-charts" */;
+			productName = Charts;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		31B4ACEB26237DBB00718C0C /* Slumber_v2.xcdatamodeld */ = {

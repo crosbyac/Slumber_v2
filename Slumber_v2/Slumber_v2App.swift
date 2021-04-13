@@ -10,10 +10,11 @@ import SwiftUI
 @main
 struct Slumber_v2App: App {
     let persistenceController = PersistenceController.shared
-
+    @StateObject private var order = UserSettings()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(order)
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
